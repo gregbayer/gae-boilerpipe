@@ -3,9 +3,9 @@ Simple implementation of [modified Boilerpipe HTML extractor (with images)](http
 
 It consists of a single servlet that takes a url parameter and returns Boilerpipe extracted HTML including images.
 
-[http://<boilerpipetestapp>.appspot.com/boilerpipe_parser?url=<url>](http://<boilerpipetestapp>.appspot.com/boilerpipe_parser?url=<url>) 
+[http://BOILERPIPETESTAPP.appspot.com/boilerpipe_parser?url=<url>](http://BOILERPIPETESTAPP.appspot.com/boilerpipe_parser?url=URL) 
 
 # Setup
 
-* Replace all instances of <boilerpipetestapp> with your GAE application name
-* Replace <url> with the url you would like to parse
+* Replace all instances of BOILERPIPETESTAPP with your GAE application name
+* Replace URL with the url you would like to parse
