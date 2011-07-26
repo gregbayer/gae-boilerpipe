@@ -3,7 +3,9 @@ Simple implementation of [modified Boilerpipe HTML extractor (with images)](http
 
 It consists of a single servlet that takes a url parameter and returns Boilerpipe extracted HTML including images.
 
-[http://boilerpipetestapp.appspot.com/boilerpipe_parser?url=URL](http://boilerpipetestapp.appspot.com/boilerpipe_parser?url=URL) 
+# Example
+
+* [http://boilerpipetestapp.appspot.com/boilerpipe_parser?url=URL](http://boilerpipetestapp.appspot.com/boilerpipe_parser?url=URL) 
 
 # Setup
 
