@@ -24,7 +24,8 @@ public class GAEBoilerpipeServlet extends HttpServlet {
 //	final BoilerpipeExtractor extractor = CommonExtractors.LARGEST_CONTENT_EXTRACTOR;
 	
 	final boolean includeImages = true;
-	final HTMLHighlighter hh = HTMLHighlighter.newExtractingInstance(includeImages);
+	final boolean bodyOnly = false;
+	final HTMLHighlighter hh = HTMLHighlighter.newExtractingInstance(includeImages, bodyOnly);
 	
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException 
