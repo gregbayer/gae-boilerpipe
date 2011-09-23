@@ -36,7 +36,7 @@ public class GAEBoilerpipeServlet extends HttpServlet {
 			
 			String extractedHtml = hh.process(url, extractor);
 			
-			resp.setContentType("text/html");
+			resp.setContentType("text/html; charset=UTF-8");
 			PrintWriter out = resp.getWriter();
 			out.println("<base href=\"" + url + "\" >");
 			out.println("<meta http-equiv=\"Content-Type\" content=\"text-html; charset=utf-8\" />");
